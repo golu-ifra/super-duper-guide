@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Resume</title>
+    <style>
+        body {
+            font-family: "Calibri", sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            background-color: #fff;
+            padding: 20px;
+            margin: 0 auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .left-section, .right-section {
+            background-color: #fdf7f9;
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .right-section {
+            background-color: #edf6fd;
+        }
+        .header {
+            grid-column: span 2;
+            text-align: left;
+            color: #ff6680;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(135deg, #ffe4e9, #d3eaff);
+            padding: 20px;
+            border-radius: 12px;
+        }
+        .header img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid #ff6680;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .contact-info {
+            text-align: right;
+            color: #555;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+        .contact-info i {
+            margin-right: 8px;
+            color: #ff6680;
+            font-size: 14px; /* Ensuring icons appear */
+        }
+        .section-title {
+            background-color: #87CEEB;
+            color: #ffffff;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-top: 35px; /* Increased space between sections */
+        }
+        .skills, .language {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 25px; /* More spacing for better separation */
+        }
+        .skill-item, .language-item {
+            background-color: #ff6680;
+            color: #fff;
+            padding: 8px 15px;
+            border-radius: 50px;
+        }
+        .awards {
+            grid-column: span 2;
+            display: flex;
+            justify-content: space-between;
+            background-color: #87CEEB;
+            color: #fff;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .job-intention {
+            color: #000;
+            font-weight: bold;
+        }
+    </style>
+    <!-- Updated FontAwesome Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <img src="muslim-girl-wearing-hijab-illustration-vector.jpg" alt="Profile Picture">
+                <div>
+                    Ifra Mariam <br>
+                    <span class="job-intention">Job intention: Designer</span>
+                </div>
+            </div>
+            <div class="contact-info">
+                <i class="fa-solid fa-location-dot"></i> Sargodha, Pakistan<br>
+                <i class="fa-solid fa-phone"></i> +92 3407526757<br>
+                <i class="fa-solid fa-envelope"></i> ifra1234@gmail.com
+            </div>
+        </div>
+
+        <div class="left-section">
+            <div class="section-title">Personal Resume</div>
+            <p>Innovative designer skilled in visual design, branding, and UI/UX. Proficient in Adobe Photoshop, Illustrator, and Figma, delivering impactful and user-centric designs.</p>
+            
+            <div class="section-title">Language</div>
+            <div class="language">
+                <span class="language-item">English</span>
+                <span class="language-item">Urdu</span>
+                <span class="language-item">German</span>
+            </div>
+
+            <div class="section-title">Skill</div>
+            <div class="skills">
+                <span class="skill-item">Graphic Design</span>
+                <span class="skill-item">UI/UX Design</span>
+                <span class="skill-item">Web Design</span>
+                <span class="skill-item">Adobe Photoshop</span>
+                <span class="skill-item">Adobe Illustrator</span>
+                <span class="skill-item">Figma</span>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="section-title">Education</div>
+            <p><b>Punjab College Sargodha</b></p>
+            <p>2019-2021</p>
+            <p>Fsc Pre Engineering</p>
+            <p><b>University Of Sargodha</b></p>
+            <p>2021-2025</p>
+            <p>Bachelor Of Computer Science</p>
+
+            <div class="section-title">Work Experience</div>
+            <p><strong>Graphic Designer</strong><br>
+                Creative Studio, Sargodha — Jan 2025 - Present</p>
+            <p>Designed visuals for social media, posters, and campaigns. Worked closely with clients to meet creative goals.</p>
+
+            <p><strong>Junior Graphic Designer</strong><br>
+                Pixel Creatives, Sargodha — Mar 2024 - Dec 2024</p>
+            <p>Developed branding materials like logos, banners, and cards. Assisted in creating website layouts.</p>
+
+            <p><strong>Freelance Graphic Designer</strong><br>
+                Remote (Sargodha-Based) — Jun 2023 - Dec 2023</p>
+            <p>Created content for local businesses to improve their online presence. Designed custom graphics for ads and social media.</p>
+        </div>
+
+        <div class="section-title">Awards</div>
+        <div class="awards">
+            <div style="background-color: #87CEEB; color: #fff; padding: 10px; border-radius: 8px; flex: 1; text-align: center;">Best Graphic Design Award</div>
+            <div style="background-color: #87CEEB; color: #fff; padding: 10px; border-radius: 8px; flex: 1; text-align: center;">Creative Excellence Award</div>
+            <div style="background-color: #87CEEB; color: #fff; padding: 10px; border-radius: 8px; flex: 1; text-align: center;">Outstanding Visual Design Award</div>
+            <div style="background-color: #87CEEB; color: #fff; padding: 10px; border-radius: 8px; flex: 1; text-align: center;">Best UI/UX Design Award</div>
+        </div>
+    </div>
+</body>
+</html>
